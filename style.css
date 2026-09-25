@@ -53,4 +53,43 @@
         display: block; 
         max-width: 100%;
      }
-     
+
+
+
+     /*===================03. PAGE LOADER====================*/
+
+     .page-loader { 
+        position: fixed; 
+        inset: 0; 
+        z-index: 9999; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        background: var(--dark); 
+        color: var(--soft); 
+        transition: opacity 0.9s var(--ease), visibility 0.9s var(--ease);
+     }
+
+     .page-loader span { 
+        font-family: var(--serif); 
+        font-size: clamp(4rem, 13vw, 12rem); 
+        letter-spacing: -0.08em; 
+        animation: loaderText 1.4s var(--ease) infinite alternate; 
+    } 
+    
+    body.loaded .page-loader { 
+        opacity: 0; 
+        visibility: hidden; 
+    } 
+    
+    @keyframes loaderText {
+         from { 
+            transform: scale(0.96); 
+            opacity: 0.5; 
+        }
+    
+        to { 
+            transform: scale(1.04);
+             opacity: 1;
+             } 
+        }
