@@ -186,3 +186,9 @@
     .cart-button:hover::after { 
         width: 100%;
      }
+
+     .cart-button { 
+        font-family: var(--mono); 
+        font-size: 0.7rem; 
+        text-transform: uppercase; 
+    }
