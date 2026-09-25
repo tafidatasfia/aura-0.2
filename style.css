@@ -231,3 +231,7 @@
 .eyebrow { 
     letter-spacing: 0.08em; 
 }
+
+.hero-number { 
+    opacity: 0.6;
+ }
