@@ -143,3 +143,16 @@
     justify-content: space-between; 
     z-index: 100; 
 }
+
+.logo {
+     font-family: var(--serif);
+     font-size: 2rem; 
+     letter-spacing: -0.06em; 
+    }
+
+.logo span { 
+    font-family: var(--mono); 
+    font-size: 0.45em; 
+    vertical-align: top; 
+    margin-left: 3px; 
+} 
