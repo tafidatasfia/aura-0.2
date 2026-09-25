@@ -227,3 +227,7 @@
     font-size: 0.65rem; 
     text-transform: uppercase; 
 }
+
+.eyebrow { 
+    letter-spacing: 0.08em; 
+}
