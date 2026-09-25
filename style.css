@@ -218,3 +218,12 @@
      overflow: hidden; 
      background: var(--bone);
      }
+
+.hero-top { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-family: var(--mono); 
+    font-size: 0.65rem; 
+    text-transform: uppercase; 
+}
