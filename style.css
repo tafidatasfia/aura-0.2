@@ -127,3 +127,19 @@
     height: 70px; 
     background: rgba(251, 243, 209, 0.35); 
 } 
+
+
+/*==================================NAVBAR==================*/
+
+.navbar { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 90px; 
+    padding: 25px 4vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    z-index: 100; 
+}
