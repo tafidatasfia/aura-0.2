@@ -261,3 +261,20 @@
         font-weight: 400; 
         text-transform: none; 
     }
+
+
+/* HERO BOTTOM */
+.hero-bottom { 
+    position: relative; 
+    z-index: 4; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+    margin-top: 5rem; 
+}
+
+.hero-description { 
+    width: min(320px, 30vw); 
+    font-size: 0.95rem; 
+    line-height: 1.5; 
+}
