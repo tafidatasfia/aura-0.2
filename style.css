@@ -234,4 +234,12 @@
 
 .hero-number { 
     opacity: 0.6;
+}
+
+
+/* HERO TITLE */
+.hero-title { 
+    position: relative; 
+    z-index: 2; 
+    margin-top: 5vh;
  }
