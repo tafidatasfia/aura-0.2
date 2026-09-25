@@ -156,3 +156,33 @@
     vertical-align: top; 
     margin-left: 3px; 
 } 
+
+.nav-links {
+     display: flex;
+     gap: 2.5rem; 
+     font-family: var(--mono); 
+     font-size: 0.7rem; 
+     text-transform: uppercase; 
+    }
+
+    .nav-links a, 
+    .cart-button { 
+        position: relative;
+     }
+
+     .nav-links a::after, 
+     .cart-button::after { 
+        content: ""; 
+        position: absolute; 
+        left: 0; 
+        bottom: -6px; 
+        width: 0; 
+        height: 1px; 
+        background: var(--dark); 
+        transition: width 0.4s var(--ease); 
+    }
+
+    .nav-links a:hover::after, 
+    .cart-button:hover::after { 
+        width: 100%;
+     }
