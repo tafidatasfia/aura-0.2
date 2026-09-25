@@ -1,0 +1,15 @@
+/*=======================AURA — MODERN ARTSY CANDLE WEBSITE STYLE SHEET=====================*/
+
+
+/* ==========01. VARIABLES ===================== */
+:root { --bone: #B6AE9F; 
+        --sage: #C5C7BC; 
+        --cream: #DEDED1; 
+        --soft: #FBF3D1; 
+        --dark: #171714; 
+        --muted: #69685F; 
+        --serif: "Playfair Display", Georgia, serif; 
+        --sans: "DM Sans", Arial, sans-serif; 
+        --mono: "DM Mono", monospace; 
+        --border: rgba(23, 23, 20, 0.2);
+        --ease: cubic-bezier(0.77, 0, 0.18, 1); }
