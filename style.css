@@ -440,3 +440,9 @@
     color: var(--soft); 
     padding: 18px 0; 
 }
+
+
+.marquee { 
+    overflow: hidden;
+    white-space: nowrap; 
+}
