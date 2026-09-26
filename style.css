@@ -466,3 +466,12 @@
         transform: translateX(-50%); 
     } 
 }
+
+
+
+
+/*============================GENERAL SECTION==================*/
+
+.section { 
+    padding: 12vw 4vw;
+}
