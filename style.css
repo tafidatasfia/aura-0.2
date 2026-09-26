@@ -486,3 +486,7 @@
     padding-bottom: 20px; 
     border-bottom: 1px solid var(--border); 
 }
+
+.section-label span:first-child { 
+    opacity: 0.5; 
+}
