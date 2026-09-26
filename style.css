@@ -457,3 +457,12 @@
     letter-spacing: 0.08em; 
     animation: marquee 20s linear infinite; 
 }
+
+@keyframes marquee { 
+    from { 
+        transform: translateX(0); 
+    } 
+    to { 
+        transform: translateX(-50%); 
+    } 
+}
