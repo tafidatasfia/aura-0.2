@@ -446,3 +446,14 @@
     overflow: hidden;
     white-space: nowrap; 
 }
+
+.marquee-track { 
+    display: flex; 
+    align-items: center; 
+    gap: 2rem; 
+    width: max-content; 
+    font-family: var(--mono); 
+    font-size: 0.75rem; 
+    letter-spacing: 0.08em; 
+    animation: marquee 20s linear infinite; 
+}
