@@ -511,3 +511,8 @@
     letter-spacing: -0.08em; 
     font-weight: 500; 
 }
+
+.intro-content h2 em { 
+    font-family: var(--serif); 
+    font-weight: 400; 
+}
