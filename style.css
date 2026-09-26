@@ -393,3 +393,15 @@
     filter: blur(0.2px); 
     animation: flameMove 1s ease-in-out infinite alternate; 
 }
+
+
+.flame span { 
+    position: absolute; 
+    width: 13px; 
+    height: 28px; 
+    left: 50%; 
+    bottom: 5px; 
+    transform: translateX(-50%); 
+    background: var(--bone); 
+    border-radius: 50%; 
+}
