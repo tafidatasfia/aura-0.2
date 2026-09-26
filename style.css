@@ -359,3 +359,16 @@
     border-radius: 12px 12px 18px 18px; 
     box-shadow: inset -20px 0 35px rgba(0, 0, 0, 0.07), 0 25px 50px rgba(0, 0, 0, 0.12);
  }
+
+
+ .candle-body::before { 
+    content: ""; 
+    position: absolute; 
+    top: -5px; 
+    left: 50%; 
+    width: 132px; 
+    height: 14px; 
+    transform: translateX(-50%); 
+    border-radius: 50%; 
+    background: #f7edc8;
+ }
