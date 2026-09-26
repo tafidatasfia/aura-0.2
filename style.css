@@ -334,3 +334,15 @@
     filter: blur(35px); 
     animation: candleGlow 2s ease-in-out infinite alternate; 
 }
+
+
+@keyframes candleGlow { 
+    from { 
+        transform: scale(0.8); 
+        opacity: 0.4; 
+    } 
+    to { 
+        transform: scale(1.2); 
+        opacity: 0.8; 
+    }
+ }
