@@ -405,3 +405,16 @@
     background: var(--bone); 
     border-radius: 50%; 
 }
+
+
+@keyframes flameMove { 
+    0% { 
+        transform: rotate(5deg) scale(0.95); 
+    } 
+    50% { 
+        transform: rotate(-4deg) scale(1.05); 
+    } 
+    100% { 
+        transform: rotate(8deg) scale(0.98); 
+    } 
+}
