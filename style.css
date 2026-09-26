@@ -516,3 +516,11 @@
     font-family: var(--serif); 
     font-weight: 400; 
 }
+
+.intro-content p { 
+    width: min(380px, 100%); 
+    margin-top: 5vw; 
+    margin-left: auto; 
+    font-size: 1rem; 
+    line-height: 1.6; 
+}
