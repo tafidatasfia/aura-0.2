@@ -346,3 +346,16 @@
         opacity: 0.8; 
     }
  }
+
+
+ .candle-body { 
+    position: relative; 
+    width: 145px; 
+    height: 210px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: var(--soft); 
+    border-radius: 12px 12px 18px 18px; 
+    box-shadow: inset -20px 0 35px rgba(0, 0, 0, 0.07), 0 25px 50px rgba(0, 0, 0, 0.12);
+ }
