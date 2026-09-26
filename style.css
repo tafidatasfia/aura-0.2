@@ -380,3 +380,16 @@
     transform: rotate(-90deg); 
     letter-spacing: -0.06em; 
 }
+
+
+.flame { 
+    position: relative; 
+    width: 32px; 
+    height: 65px; 
+    margin-bottom: -4px; 
+    background: var(--soft); 
+    border-radius: 60% 40% 60% 40%; 
+    transform: rotate(8deg); 
+    filter: blur(0.2px); 
+    animation: flameMove 1s ease-in-out infinite alternate; 
+}
