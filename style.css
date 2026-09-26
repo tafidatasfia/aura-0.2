@@ -418,3 +418,14 @@
         transform: rotate(8deg) scale(0.98); 
     } 
 }
+
+
+@keyframes floatingCandle { 
+    0%, 
+    100% { 
+        transform: translateY(0) rotate(1deg); 
+    } 
+    50% { 
+        transform: translateY(-18px) rotate(-2deg); 
+    } 
+}
