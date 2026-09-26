@@ -322,3 +322,15 @@
     flex-direction: column; 
     animation: floatingCandle 5s ease-in-out infinite; 
 }
+
+
+.candle-glow { 
+    position: absolute; 
+    top: 0; 
+    width: 180px; 
+    height: 180px; 
+    border-radius: 50%; 
+    background: rgba(251, 243, 209, 0.35); 
+    filter: blur(35px); 
+    animation: candleGlow 2s ease-in-out infinite alternate; 
+}
