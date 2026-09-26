@@ -305,3 +305,20 @@
         color: var(--soft); 
         transform: rotate(-12deg) scale(1.08); 
     }
+
+
+/*============================HERO CANDLE===================*/
+
+.hero-candle { 
+    position: absolute; 
+    right: 11vw; 
+    bottom: 14vh; 
+    width: 210px; 
+    height: 350px; 
+    z-index: 3; 
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end; 
+    flex-direction: column; 
+    animation: floatingCandle 5s ease-in-out infinite; 
+}
