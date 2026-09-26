@@ -372,3 +372,11 @@
     border-radius: 50%; 
     background: #f7edc8;
  }
+
+
+ .candle-label { 
+    font-family: var(--serif); 
+    font-size: 2rem; 
+    transform: rotate(-90deg); 
+    letter-spacing: -0.06em; 
+}
