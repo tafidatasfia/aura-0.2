@@ -429,3 +429,14 @@
         transform: translateY(-18px) rotate(-2deg); 
     } 
 }
+
+
+
+/*================================MARQUEE==================*/
+
+.marquee-section { 
+    overflow: hidden; 
+    background: var(--dark); 
+    color: var(--soft); 
+    padding: 18px 0; 
+}
