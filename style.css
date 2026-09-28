@@ -547,3 +547,18 @@
     padding-bottom: 4px; 
     transition: opacity 0.3s ease, transform 0.3s ease; 
 }
+
+.text-link:hover { 
+    opacity: 0.5; 
+    transform: translateX(5px); 
+}
+
+
+/* PRODUCT GRID */
+
+.product-grid { 
+    display: grid; 
+    grid-template-columns: repeat(12, 1fr); 
+    gap: 30px; 
+    margin-top: 8vw; 
+}
