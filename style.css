@@ -562,3 +562,7 @@
     gap: 30px; 
     margin-top: 8vw; 
 }
+
+.product-card { 
+    grid-column: span 6; 
+}
