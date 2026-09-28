@@ -537,3 +537,13 @@
     justify-content: space-between; 
     align-items: flex-end;
 }
+
+
+.text-link { 
+    font-family: var(--mono); 
+    font-size: 0.7rem; 
+    text-transform: uppercase; 
+    border-bottom: 1px solid var(--dark); 
+    padding-bottom: 4px; 
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
