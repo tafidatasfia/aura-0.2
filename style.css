@@ -566,3 +566,11 @@
 .product-card { 
     grid-column: span 6; 
 }
+
+.product-card:nth-child(2) { 
+    margin-top: 12vw; 
+}
+
+.product-card:nth-child(3) { 
+    grid-column: 2 / span 5; 
+}
