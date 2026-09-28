@@ -579,3 +579,17 @@
     grid-column: 8 / span 5; 
     margin-top: 8vw; 
 }
+
+
+
+/* PRODUCT IMAGE */
+
+.product-image { 
+    position: relative; 
+    height: 560px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden; 
+    transition: transform 0.6s var(--ease); 
+}
