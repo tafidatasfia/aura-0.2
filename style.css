@@ -623,3 +623,56 @@
     font-family: var(--mono); 
     font-size: 0.65rem; 
 }
+
+/* MINI CANDLE */ 
+
+.mini-candle { 
+    position: relative; 
+    width: 130px; 
+    height: 250px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-end; 
+    transition: transform 0.7s var(--ease); 
+}
+
+.product-card:hover .mini-candle { 
+    transform: translateY(-15px) rotate(-3deg);
+}
+
+.mini-body { 
+    width: 125px; 
+    height: 190px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background: var(--soft); 
+    border-radius: 9px 9px 16px 16px; 
+    box-shadow: 12px 15px 30px rgba(0, 0, 0, 0.14); 
+}
+
+.mini-body::before { 
+    content: ""; 
+    position: absolute; 
+    top: 55px; 
+    width: 112px; 
+    height: 10px; 
+    background: #f4e8c0;
+    border-radius: 50%; 
+}
+
+.mini-body { 
+    font-family: var(--serif); 
+    font-size: 1.4rem; 
+}
+
+.mini-flame { 
+    width: 24px; 
+    height: 48px; 
+    margin-bottom: -2px; 
+    background: var(--soft); 
+    border-radius: 60% 40% 60% 40%; 
+    transform: rotate(8deg); 
+    animation: flameMove 1s ease-in-out infinite alternate; 
+}
