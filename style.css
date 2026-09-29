@@ -598,3 +598,28 @@
 .product-card:hover .product-image { 
     transform: scale(0.98);
 }
+
+.product-one { 
+    background: var(--bone); 
+}
+ 
+.product-two { 
+    background: var(--sage); 
+}
+
+.product-three { 
+    background: #cfc5b4; 
+
+} 
+
+.product-four { 
+    background: #d2d4c5; 
+}
+
+.product-number { 
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    font-family: var(--mono); 
+    font-size: 0.65rem; 
+}
