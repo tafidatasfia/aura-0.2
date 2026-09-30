@@ -731,3 +731,52 @@
     font-family: var(--mono); 
     font-size: 0.7rem;
 }
+
+
+
+/*==========================STATEMENT===================*/
+
+.statement { 
+    min-height: 90vh; 
+    padding: 8vw 4vw; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    background: var(--dark); 
+    color: var(--soft); 
+}
+
+
+.statement-small { 
+    font-family: var(--mono); 
+    font-size: 0.65rem; 
+}
+
+.statement h2 { 
+    max-width: 1200px; 
+    font-size: clamp(5rem, 13vw, 15rem); 
+    line-height: 0.75; 
+    letter-spacing: -0.09em; 
+    font-weight: 500; 
+} 
+
+
+.statement h2 span { 
+    display: block; 
+    margin-left: 12vw; 
+    font-family: var(--serif); 
+    font-style: italic; 
+    font-weight: 400; 
+}
+
+.about-text {
+    align-self: end;
+} 
+
+
+.about-text p { 
+    max-width: 350px; 
+    margin-bottom: 1.5rem; 
+    font-size: 1rem; 
+    line-height: 1.6; 
+}
